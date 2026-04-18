@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: #0f0f0f;
+  color: white;
+}
+
+/* Sidebar */
+.ui {
+  width: 320px;
+  padding: 20px;
+  background: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid #333;
+}
+
+.ui h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.ui p {
+  font-size: 13px;
+  color: #aaa;
+}
+
+/* Controls */
+.controls {
+  margin-top: 20px;
+}
+
+.controls label {
+  display: block;
+  margin-top: 15px;
+  font-size: 13px;
+}
+
+.controls input,
+.controls select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: #2a2a2a;
+  color: white;
+}
+
+/* Canvas */
+#canvas-container {
+  flex: 1;
+}
+
+/* Footer */
+footer {
+  font-size: 12px;
+  color: #777;
+  text-align: center;
+}
